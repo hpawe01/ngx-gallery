@@ -85,5 +85,9 @@
   },
   "engines": {
     "node": ">=6.0.0"
-  }
+  },
+  "main": "dist/bundles/ngx-gallery.umd.js",
+  "module": "dist/ngx-gallery.js",
+  "jsnext:main": "dist/ngx-gallery.js",
+  "typings": "dist/ngx-gallery.d.ts"
 }
