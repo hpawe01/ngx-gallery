@@ -38,6 +38,7 @@ export declare class NgxGalleryPreviewComponent implements OnChanges {
     zoomMin: number;
     zoomInIcon: string;
     zoomOutIcon: string;
+    animation: boolean;
     actions: NgxGalleryAction[];
     onOpen: EventEmitter<{}>;
     onClose: EventEmitter<{}>;

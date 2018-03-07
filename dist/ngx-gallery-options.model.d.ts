@@ -44,6 +44,7 @@ export interface INgxGalleryOptions {
     previewCloseOnClick?: boolean;
     previewCloseOnEsc?: boolean;
     previewKeyboardNavigation?: boolean;
+    previewAnimation?: boolean;
     previewAutoPlay?: boolean;
     previewAutoPlayInterval?: number;
     previewAutoPlayPauseOnHover?: boolean;
@@ -105,6 +106,7 @@ export declare class NgxGalleryOptions implements INgxGalleryOptions {
     previewCloseOnClick?: boolean;
     previewCloseOnEsc?: boolean;
     previewKeyboardNavigation?: boolean;
+    previewAnimation?: boolean;
     previewAutoPlay?: boolean;
     previewAutoPlayInterval?: number;
     previewAutoPlayPauseOnHover?: boolean;
